@@ -1,3 +1,165 @@
+/* --- Header Page Title avec image de fond --- */
+.page-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/aa185dead70a3df5c6dd92e2408db78f.jpg') center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 100px 0 80px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.page-header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(111, 28, 14, 0.3);
+}
+.page-header .container {
+  position: relative;
+  z-index: 1;
+}
+.page-header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.page-header .breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+}
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+  color: #fff;
+  font-size: 1rem;
+}
+.page-header .breadcrumb-item.active {
+  color: rgba(255, 255, 255, 0.8);
+}
+.page-header .breadcrumb-item + .breadcrumb-item::before {
+  color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 768px) {
+  .page-header {
+    padding: 80px 0 60px;
+  }
+  .page-header h1 {
+    font-size: 2rem;
+  }
+}
+
+/* --- Footer Modernisé --- */
+.footer-modern {
+  background: #6f1c0e !important;
+  color: #f0e6d9;
+  font-size: 16px;
+  padding-top: 48px;
+  padding-bottom: 24px;
+  border-top: 2px solid #8a3a2a;
+}
+.footer-modern .footer-logo .sitename {
+  font-family: var(--heading-font);
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f8f1e9;
+  letter-spacing: 1px;
+}
+.footer-modern .footer-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f8f1e9;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  border-left: 4px solid #d4a574;
+  padding-left: 0.5rem;
+}
+.footer-modern .footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-modern .footer-links li {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.footer-modern .footer-links li:not(:has(a)) {
+  color: #f0e6d9;
+}
+.footer-modern .footer-links a {
+  color: #f0e6d9;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-modern .footer-links a:hover {
+  color: #d4a574;
+  text-decoration: underline;
+}
+
+.footer-modern .footer-links li:not(:has(a)) {
+  color: #f0e6d9;
+}
+.footer-modern .footer-contact p {
+  margin-bottom: 0.3rem;
+  font-size: 1rem;
+  color: #f0e6d9;
+}
+.footer-modern .footer-contact i {
+  color: #d4a574;
+  margin-right: 0.5rem;
+}
+.footer-modern .footer-social {
+  display: flex;
+  gap: 16px;
+}
+.footer-modern .footer-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--accent-color);
+  font-size: 1.3rem;
+  border: 1.5px solid #e6b8b0;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.footer-modern .footer-social a:hover {
+  background: var(--accent-color);
+  color: #fff;
+  border-color: var(--accent-color);
+}
+.footer-modern .footer-bottom {
+  border-top: 1px solid #6f4a3d;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 0.95rem;
+  color: #e8d5c4;
+}
+@media (max-width: 991.98px) {
+  .footer-modern .row > div {
+    margin-bottom: 2rem;
+  }
+  .footer-modern .footer-title {
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer-modern .row {
+    flex-direction: column;
+  }
+  .footer-modern .footer-logo .sitename {
+    font-size: 1.5rem;
+  }
+  .footer-modern .footer-title {
+    font-size: 1.1rem;
+  }
+  .footer-modern .footer-social {
+    justify-content: flex-start;
+  }
+}
 /**
 * Template Name: Medicio
 * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
