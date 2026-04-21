@@ -1,9 +1,12 @@
-# TODO: Add #6f1c0e background to all footers
+# Task: Add hero image section to partners, cooperatives, contact pages ✅
 
-## Plan Steps:
-- [x] Step 1: Update assets/css/main.css - Change footer-modern background to #6f1c0e and adjust border for contrast.
-- [x] Step 2: Verify change on all pages (index.html, apropos.html, produits.html, etc.).
-- [x] Step 3: Complete task.
+## Steps:
+- [x] 1. Create this TODO.md
+- [x] 2. Insert .page-header into partners.html after </header> before <main class="main">
+- [x] 3. Insert .page-header into cooperatives.html after </header> before <main class="main">
+- [x] 4. Insert .page-header into contact.html after </header> before <main class="main">
+- [x] 5. Update TODO.md with completion status
+- [x] 6. Verify in browser: open partners.html, cooperatives.html, contact.html - hero below nav, white text editable
 
-**Task completed:** All footers now use #6f1c0e background color. Refresh pages to see the change. CSS propagates to contact.html, partners.html, etc. automatically.
+**Task completed.** Hero section (image aa185dead70a3df5c6dd92e2408db78f.jpg, white bold h1 "hhhhhhhhhhh", white lowercase p) added below nav bar in partners.html, cooperatives.html, contact.html only. Text editable like apropos/produits. Existing content preserved. CSS handles styling.
 
