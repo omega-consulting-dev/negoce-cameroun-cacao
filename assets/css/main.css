@@ -2173,6 +2173,4 @@ section,
 /*--------------------------------------------------------------
 # Starter Section Section
 --------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
-}
+.starter-section {\n  /* Add your styles here */\n}\n\n/* Produits tabs styling */\n#produitsTabs .nav-link {\n  background-color: #6b2c2c !important;\n}\n#produitsTabs .nav-link.active {\n  background-color: #8b4513 !important;\n}
