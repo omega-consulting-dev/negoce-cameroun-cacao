@@ -1,0 +1,27 @@
+#why-choose-us {
+  overflow: hidden; /* Évite les débordements dus au badge sur mobile */
+}
+
+#why-choose-us h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+/* Ajustement du badge pour les petits écrans */
+@media (max-width: 991px) {
+  .course-badge {
+    right: 10px !important;
+    bottom: 10px !important;
+  }
+  #why-choose-us h2 {
+    font-size: 1.8rem;
+  }
+}
+
+.course-badge {
+  transition: transform 0.3s ease;
+}
+
+.course-badge:hover {
+  transform: translateY(-5px);
+}
